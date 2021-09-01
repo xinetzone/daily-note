@@ -4,18 +4,11 @@ parts:
 - caption: 日志
   chapters:
   - file: README
-  - file: docs/start/index
+  - file: docs/2021/index
     sections:
-    - glob: docs/start/**
-  - file: docs/write/index
-    sections:
-    - glob: docs/write/**
-
-- caption: 原理
-  chapters:
-  - file: docs/principle/index
-    sections:
-    - glob: docs/principle/**
+    - file: docs/2021/09/index
+      sections:
+      - glob: docs/2021/09/**
 
 - caption: 混沌
   chapters:
